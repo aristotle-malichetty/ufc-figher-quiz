@@ -81,15 +81,21 @@ const STAR_POWER = {
   'Amanda Nunes': 150,
   'Demetrious Johnson': 150,
 
-  // === TIER 2: CURRENT CHAMPIONS & HALL OF FAMERS (+100) ===
-  // Current Champions (2024-2025)
+  // === TIER 2: CURRENT CHAMPIONS & P4P TOP 15 (+100) ===
+  // Current Champions & P4P Ranked (2024-2025)
   'Islam Makhachev': 100,
-  'Alex Pereira': 100,
-  'Dricus Du Plessis': 100,
-  'Belal Muhammad': 100,
   'Ilia Topuria': 100,
+  'Khamzat Chimaev': 100,
+  'Alex Pereira': 100,
+  'Alexander Volkanovski': 100,
   'Merab Dvalishvili': 100,
+  'Tom Aspinall': 100,
   'Alexandre Pantoja': 100,
+  'Max Holloway': 100,
+  'Dricus Du Plessis': 100,
+  'Magomed Ankalaev': 100,
+  'Arman Tsarukyan': 100,
+  'Belal Muhammad': 100,
   'Zhang Weili': 100,
   'Valentina Shevchenko': 100,
   'Alexa Grasso': 100,
@@ -114,16 +120,14 @@ const STAR_POWER = {
   'Dan Severn': 100,
 
   // === TIER 3: FORMER CHAMPIONS & BIG NAMES (+60) ===
-  // Former Champions / P4P Ranked
+  // Former Champions / Popular Fighters
   'Israel Adesanya': 60,
-  'Max Holloway': 60,
   'Dustin Poirier': 60,
   'Charles Oliveira': 60,
   'Kamaru Usman': 60,
   'Francis Ngannou': 60,
   'Sean O\'Malley': 60,
   'Leon Edwards': 60,
-  'Alexander Volkanovski': 60,
   'Henry Cejudo': 60,
   'TJ Dillashaw': 60,
   'Dominick Cruz': 60,
