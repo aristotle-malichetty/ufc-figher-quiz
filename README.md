@@ -40,6 +40,7 @@ Your Answers → Style Profile → Fighter Matching → Your UFC Alter Ego
 | Backend | Cloudflare Workers |
 | Storage | Cloudflare KV |
 | Data | [UFC Data API](https://github.com/aristotle-malichetty/ufc-data-api) |
+| Analytics | Google Analytics (GA4) |
 
 ---
 
