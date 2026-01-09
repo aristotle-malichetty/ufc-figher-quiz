@@ -521,11 +521,12 @@ export default function UFCFighterQuiz() {
     const top5 = top8.slice(0, 5);
 
     // Build top 3 with selected match first
+    // Cap other fighters at 99% so selected is always highest shown
     const reorderedTop3 = [
       { ...top5[randomIndex], percentage: 100 },
       ...top5.filter((_, i) => i !== randomIndex).slice(0, 2).map(item => ({
         ...item,
-        percentage: Math.round((item.score / top5[randomIndex].score) * 100)
+        percentage: Math.min(99, Math.round((item.score / top5[randomIndex].score) * 100))
       }))
     ];
 
