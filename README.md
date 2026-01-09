@@ -1,36 +1,54 @@
-# UFC Fighter Quiz
+# UFC Fighter Quiz 🥊
 
-Find your UFC alter ego! Take a 5-question quiz to discover which UFC fighter matches your fighting style.
+![UFC Fighter Quiz](docs/UFC-Quiz.jpg)
 
-**Live Demo:** [ufc.aristotle.me](https://ufc.aristotle.me)
+> Find your UFC alter ego! Take a 5-question quiz to discover which UFC fighter matches your fighting style.
 
-## Features
+🔗 **[Try it live → ufc.aristotle.me](https://ufc.aristotle.me)**
 
-- **Personality Quiz** - Answer 5 questions about your fighting preferences
-- **Smart Matching** - Algorithm matches your style to real UFC fighters using weighted scoring with randomization for variety
-- **Shareable Results** - Dynamic landing pages so friends can see your fighter match
-- **Live Stats** - See how many others got the same fighter as you
+---
 
-## How It Works
+## ✨ Features
 
-1. Each question has options mapped to fighting styles (striker, grappler, balanced, etc.)
-2. Your answers build a style profile with weighted scores
-3. The algorithm finds UFC fighters whose stats match your style
-4. Results include a randomization factor so same answers can yield different (but similar) fighters
+| | |
+|---|---|
+| 🎯 **Personality Quiz** | Answer 5 questions about your fighting preferences |
+| 🧠 **Smart Matching** | Algorithm matches your style to real UFC fighters |
+| 📊 **Live Stats** | See how many others got the same fighter as you |
+| 🔗 **Shareable Results** | Dynamic landing pages to share with friends |
 
-## Tech Stack
+---
 
-| Component | Technology |
-|-----------|------------|
-| Frontend | React + Vite |
-| Backend | Cloudflare Workers |
-| Storage | Cloudflare KV |
-| Data | UFC Stats API |
+## 🔧 How It Works
 
-## License
+```
+Your Answers → Style Profile → Fighter Matching → Your UFC Alter Ego
+```
+
+1. Each question maps to fighting styles (striker, grappler, balanced, etc.)
+2. Your answers build a weighted style profile
+3. Algorithm finds UFC fighters whose stats match your style
+4. Randomization ensures variety in results
+
+---
+
+## 🛠 Tech Stack
+
+```
+Frontend    →  React + Vite
+Backend     →  Cloudflare Workers
+Storage     →  Cloudflare KV
+Data        →  UFC Stats API
+```
+
+---
+
+## 📄 License
 
 MIT
 
 ---
 
-Built with love for UFC by Aristotle
+<p align="center">
+  Built by <a href="https://aristotle.me">Aristotle</a> 🥊
+</p>

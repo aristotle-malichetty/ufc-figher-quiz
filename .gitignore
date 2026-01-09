@@ -40,6 +40,9 @@ worker/.wrangler/
 !public/**/*.jpg
 !public/**/*.jpeg
 !public/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!docs/**/*.png
 
 # Package manager locks (optional - uncomment if you want to ignore)
 # package-lock.json
