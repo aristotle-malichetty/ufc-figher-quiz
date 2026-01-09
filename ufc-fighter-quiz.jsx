@@ -656,7 +656,7 @@ export default function UFCFighterQuiz() {
 
   // Generate shareable URL with fighter result
   const getShareableUrl = (includeFrom = false, customName = null) => {
-    const baseUrl = 'https://ufcapi.aristotle.me/quiz';
+    const baseUrl = 'https://ufc.aristotle.me';
     const fighterSlug = matchedFighter.name.toLowerCase().replace(/\s+/g, '-');
     let url = `${baseUrl}?result=${fighterSlug}`;
     if (includeFrom && customName) {
