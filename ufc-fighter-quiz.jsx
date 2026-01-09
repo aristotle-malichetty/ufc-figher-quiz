@@ -874,7 +874,7 @@ export default function UFCFighterQuiz() {
               fontFamily: 'Oswald, sans-serif',
               letterSpacing: '2px',
             }}>
-              POWERED BY <a href="https://ufcapi.aristotle.me" target="_blank" rel="noopener noreferrer" style={{ color: '#d4af37', textDecoration: 'none' }}>UFC STATS API</a>
+              POWERED BY <a href="https://github.com/aristotle-malichetty/ufc-stats-api" target="_blank" rel="noopener noreferrer" style={{ color: '#d4af37', textDecoration: 'none' }}>UFC STATS API</a>
             </div>
           </div>
         )}
@@ -1239,7 +1239,7 @@ export default function UFCFighterQuiz() {
               fontFamily: 'Oswald, sans-serif',
               letterSpacing: '2px',
             }}>
-              POWERED BY <a href="https://ufcapi.aristotle.me" target="_blank" rel="noopener noreferrer" style={{ color: '#d4af37', textDecoration: 'none' }}>UFC STATS API</a>
+              POWERED BY <a href="https://github.com/aristotle-malichetty/ufc-stats-api" target="_blank" rel="noopener noreferrer" style={{ color: '#d4af37', textDecoration: 'none' }}>UFC STATS API</a>
             </div>
           </div>
         )}
@@ -1665,7 +1665,7 @@ export default function UFCFighterQuiz() {
                 borderTop: '1px solid rgba(255,255,255,0.15)',
               }}>
                 <a
-                  href="https://ufcapi.aristotle.me/docs"
+                  href="https://github.com/aristotle-malichetty/ufc-stats-api"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
