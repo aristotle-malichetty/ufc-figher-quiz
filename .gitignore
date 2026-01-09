@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (contains API keys - NEVER commit)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings (user-specific)
+.claude/
+
+# Wrangler local state (contains cached data)
+worker/.wrangler/
+
+# Local development
+.cache/
+
+# Random/temp files
+*.jpg
+*.jpeg
+*.png
+!public/**/*.jpg
+!public/**/*.jpeg
+!public/**/*.png
+
+# Package manager locks (optional - uncomment if you want to ignore)
+# package-lock.json
