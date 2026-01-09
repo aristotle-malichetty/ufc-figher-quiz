@@ -34,12 +34,12 @@ Your Answers → Style Profile → Fighter Matching → Your UFC Alter Ego
 
 ## 🛠 Tech Stack
 
-```
-Frontend    →  React + Vite
-Backend     →  Cloudflare Workers
-Storage     →  Cloudflare KV
-Data        →  UFC Stats API
-```
+| | |
+|---|---|
+| Frontend | React + Vite |
+| Backend | Cloudflare Workers |
+| Storage | Cloudflare KV |
+| Data | [UFC Data API](https://github.com/aristotle-malichetty/ufc-data-api) |
 
 ---
 
